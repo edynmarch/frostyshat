@@ -9,6 +9,9 @@ The document demonstrates planner loop and validator coordination principles ass
 Canonical source:
 https://avacovenant.org/hat
 
+Further essays and development notes:
+https://avacovenant.substack.com
+
 License: CC0 (public domain)
 
 
