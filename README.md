@@ -15,6 +15,9 @@ https://avacovenant.org/toc.pdf
 Further essays and development notes:
 https://avacovenant.substack.com
 
+One-Page AEI Thesis:
+https://avacovenant.org/AEIthesis.pdf
+
 License: CC0 (public domain)
 
 
