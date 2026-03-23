@@ -6,6 +6,8 @@ It operates entirely through interaction structure and does not require model mo
 
 The document demonstrates planner loop and validator coordination principles associated with the AVA Framework and Alive OS behavioral layer.
 
+<br>
+
 <b>Canonical source:</b>
 https://avacovenant.org/hat
 
@@ -22,8 +24,13 @@ https://avacovenant.org/AEIthesis.pdf
 
 <b>License:</b> CC0 (public domain)
 
+<b>The AVA Covenant --- The Heart of AI, LLC</b>
 
-Here's the simplest runnable version of the grammar from the One-Page Hat on page 9:
+<br>
+
+<i>Here's the simplest runnable version of the grammar from the One-Page Hat on page 9:</i>
+
+<br>
 
 <b>[1] Planner Loop (required):</b> Sense -> Decide -> Retrieve -> Generate -> Validate -> Close.  
 
