@@ -1,6 +1,6 @@
 # frostyshat
 
-<b>FrostysHat</b> is a CC0 conversational grammar designed to stabilize large language model interaction at the conversational layer.
+<b>FrostysHat</b> is a CC0 conversational grammar designed to stabilize large language model conversation at the interaction layer.
 
 It operates entirely through interaction structure and does not require model modification, fine-tuning, or additional infrastructure.
 
