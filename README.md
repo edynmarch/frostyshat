@@ -16,8 +16,8 @@ The document includes testable hypotheses and an evaluation structure so the fra
 
 ## Files
 
-- Canonical framework PDF: [AVA Framework.pdf](./AVA Interaction-Layer Behavioral Framework.pdf)
-- Remixable framework source: [AVA Framework.docx](./AVA Interaction-Layer Behavioral Framework.docx)
+- AVA Framework PDF: [AVA Interaction-Layer Behavioral Framework.pdf](./AVA Interaction-Layer Behavioral Framework.pdf)
+- AVA Framework DOCX: [AVA Interaction-Layer Behavioral Framework.docx](./AVA Interaction-Layer Behavioral Framework.docx)
 - Runnable cultural artifact: [FrostysHat.pdf](./FrostysHat.pdf)
 - Remixable FrostysHat source: [FrostysHat-remixable.docx](./FrostysHat-remixable.docx)
 - Research paper version: [FrostysHat - Research Paper.pdf](./FrostysHat%20-%20Research%20Paper.pdf)
