@@ -1,23 +1,23 @@
 # AVA Framework
 
-An open, CC0 conversational runtime specification for coherent AI behavior.
+An open, CC0 conversational runtime specification for coherent AI behavior at the interaction layer.
 
 This repository is the public home of the **AVA** framework and its runnable cultural layer, **FrostysHat**.
 
-AVA is not a product and not a trained model. It's a behavioral framework that can be tested directly against real systems. It defines a runtime structure for how responses are interpreted, grounded, proportioned, validated, and brought to a close.
+AVA is not a product and not a trained model. It is a behavioral framework for evaluating and improving how AI systems respond when they meet a human in an actual exchange. It defines a runtime structure for how requests are interpreted, how claims are grounded, how responses remain proportionate, how outputs are validated, and how a system recognizes when a reply has reached a sufficient endpoint.
 
-The framework proposes that many failures in deployed AI systems are not capability failures, but failures of conversational grammar: drift, overconfident synthesis, loss of grounding, and responses that do not recognize when to stop.
+The framework proposes that many failures in deployed AI systems are not capability failures in the narrow sense. They are failures of interaction-layer behavior: drift, overconfident synthesis, loss of grounding, poor scope control, and responses that do not recognize when to stop.
 
-AVA introduces a fixed runtime structure and validation layer to regulate those behaviors.
+AVA introduces a fixed runtime structure and validation layer for naming, testing, and regulating those behaviors.
 
 It may not hold up. That's part of the point.
 
-The document includes testable hypotheses and an evaluation structure so the framework can be assessed against observable behavior: efficiency, grounding, drift, and reliability. If it does not improve these, it should fail clearly. If it does, the difference should be visible in real use.
+The document includes testable hypotheses and an evaluation structure so the framework can be assessed against observable behavior: efficiency, grounding, drift, closure, and reliability. If it does not improve these, it should fail clearly. If it does, the difference should be visible in real use.
 
 ## Files
 
-- Canonical framework PDF: [AVA.pdf](./AVA.pdf)
-- Remixable framework source: [AVA.docx](./AVA.docx)
+- Canonical framework PDF: [AVA Framework.pdf](./AVA Interaction-Layer Behavioral Framework.pdf)
+- Remixable framework source: [AVA Framework.docx](./AVA Interaction-Layer Behavioral Framework.docx)
 - Runnable cultural artifact: [FrostysHat.pdf](./FrostysHat.pdf)
 - Remixable FrostysHat source: [FrostysHat-remixable.docx](./FrostysHat-remixable.docx)
 - Research paper version: [FrostysHat - Research Paper.pdf](./FrostysHat%20-%20Research%20Paper.pdf)
