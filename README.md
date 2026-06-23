@@ -548,6 +548,172 @@ These are domain translations of the same interaction-layer claim:
 
 ---
 
+## Conversational Dynamics: Performance, Emotion, and Structure
+
+The AVA Planner Loop describes how an exchange moves:
+
+**Sense → Decide → Retrieve → Generate → Validate → Close**
+
+**Conversational Dynamics** describes what has to stay balanced while the exchange moves.
+
+Every usable conversation carries three basic layers:
+
+- **Performance** — what the exchange is trying to accomplish.
+- **Emotion** — how the exchange feels to the person inside it.
+- **Structure** — how the exchange is organized, bounded, sequenced, and closed.
+
+These layers act like conversational physics. An exchange stays coherent when the forces remain balanced enough for the moment. When one layer dominates or disappears, the interaction starts to distort.
+
+A simple analogy is nutrition. Food can be described through macronutrients: protein, fat, and carbohydrates. A healthy diet depends on proportion, context, and use. Conversation works the same way. A usable interaction-layer exchange needs enough **Performance** to move the work, enough **Emotion** to fit the human moment, and enough **Structure** to keep the exchange coherent until it can close.
+
+This is one of the core philosophies of AVA: coherent AI behavior is not produced by optimizing only for task completion, warmth, safety language, or structure. Human-grade interaction depends on the usable balance of all three layers in context.
+
+---
+
+### The Three Layers
+
+#### Performance
+
+**Performance** is the task layer.
+
+It includes the answer, action, decision, output, recommendation, summary, diagnosis, routing, or resolution the user came for.
+
+A system with weak **Performance** may sound thoughtful while failing to move the work forward. A system with excessive **Performance** may rush toward an answer before the situation is ready.
+
+#### Emotion
+
+**Emotion** is the felt layer.
+
+It includes trust, frustration, anxiety, confidence, urgency, relief, care, pressure, encouragement, and the user's sense of being understood.
+
+A system with weak emotional awareness may be accurate but brittle, cold, or alienating. A system with excessive emotional behavior may reassure too early, apologize repeatedly, flatter, soften, or continue after the useful work is done.
+
+#### Structure
+
+**Structure** is the form layer.
+
+It includes scope, sequence, grounding, turn state, handoff, pacing, role boundaries, evidence boundaries, and closure.
+
+A system with weak **Structure** may drift, over-answer, miss corrections, blur categories, or leave the user unsure what happens next. A system with excessive **Structure** may become rigid, bureaucratic, over-scaffolded, or difficult to use.
+
+AVA treats coherent interaction as a balance among these three layers.
+
+---
+
+### Failure as Layer Imbalance
+
+Many AI failures can be described as imbalance among **Performance**, **Emotion**, and **Structure**.
+
+| Imbalance | How it appears |
+|---|---|
+| Too much **Performance** | The system answers too soon, recommends too early, pushes toward action, or completes work the user still needed to participate in. |
+| Too little **Performance** | The system sounds careful, warm, or structured but does not resolve, decide, explain, narrow, or move the task forward. |
+| Too much **Emotion** | The system over-reassures, apologizes repeatedly, flatters, cushions uncertainty, or makes the situation feel more settled than it is. |
+| Too little **Emotion** | The system may be technically correct while feeling cold, dismissive, abrupt, or careless toward the user's actual position. |
+| Too much **Structure** | The system becomes procedural, rigid, over-formatted, compliance-shaped, or trapped in a framework instead of helping the user. |
+| Too little **Structure** | The system drifts, loses context, misses corrections, mixes categories, fails to ground claims, or closes without a usable endpoint. |
+
+Layer Balance gives teams a way to describe why an answer can be accurate and still wrong for the exchange.
+
+A response can retrieve the right policy and still fail the user.
+
+A tutor can solve the math correctly and still remove the learning moment.
+
+A healthcare assistant can sound kind and still reassure too early.
+
+A support assistant can apologize well and still leave the issue unresolved.
+
+A research assistant can summarize sources and still flatten uncertainty.
+
+A legal assistant can explain a clause and still imply action before the document supports it.
+
+The surface failure changes by domain. The layer imbalance remains recognizable.
+
+---
+
+### How the Planner Loop Uses Layer Balance
+
+Layer Balance is not separate from the AVA Planner Loop. It is what the loop has to preserve.
+
+| AVA Step | Layer Balance Function |
+|---|---|
+| **Sense** | Identifies the task, emotional pressure, and structural situation of the exchange. |
+| **Decide** | Chooses the kind of help the moment can support: answer, ask, retrieve, narrow, explain, hand off, refuse, or close. |
+| **Retrieve** | Establishes what the performance layer can stand on and what boundaries the structure layer has to preserve. |
+| **Generate** | Produces the response with the right balance of task movement, human tone, and interaction shape. |
+| **Validate** | Checks whether one layer has outrun the others: confidence beyond evidence, warmth beyond grounding, structure beyond usefulness, or performance beyond permission. |
+| **Close** | Ends the exchange when the user has a usable answer, next step, handoff, or stopping point. |
+
+In AVA, validation is not only a factual check. It is also a balance check.
+
+---
+
+### Domain Translations
+
+The same three layers appear differently across product domains.
+
+| Domain | Performance | Emotion | Structure |
+|---|---|---|---|
+| **Support assistants** | Resolve or narrow the issue. | Reduce frustration without performing empty care. | Preserve context, diagnose, escalate, and close cleanly. |
+| **Healthcare guidance assistants** | Explain what can responsibly be said. | Handle anxiety without over-reassurance. | Keep clinical boundaries and next steps visible. |
+| **Financial guidance assistants** | Support the decision process. | Avoid false confidence or pressure. | Separate education, decision support, and recommendation. |
+| **Legal guidance assistants** | Explain document meaning or risk. | Avoid making the user feel safer than the context supports. | Preserve scope, related provisions, and action boundaries. |
+| **Tutors and learning tools** | Help the learner make progress. | Build confidence without taking over. | Scaffold the next step and stop before answer-dumping. |
+| **Voice and contact-center agents** | Complete the caller's task. | Keep the caller from feeling ignored or looped. | Maintain live state, repairs, slots, and handoff context. |
+| **Internal copilots and workflow agents** | Reduce work burden. | Respect the employee's time and attention. | Prioritize, summarize, route, and close with a usable work product. |
+| **Research assistants** | Synthesize evidence. | Avoid polished certainty when evidence is uneven. | Preserve source strength, inference boundaries, and uncertainty. |
+| **Sales assistants** | Support commercial judgment. | Respect trust, timing, and buyer state. | Separate interest, fit, urgency, authority, and next action. |
+| **HR and policy assistants** | Navigate policy or process. | Protect dignity, privacy, and sensitive context. | Separate roles, disclosure needs, channels, and escalation paths. |
+| **Insurance assistants** | Translate policy or claim outcomes. | Reduce confusion without hiding uncertainty. | Connect evidence, plan rules, decisions, and next checks. |
+| **Intake and onboarding flows** | Help the user finish. | Reduce uncertainty during a fragile early interaction. | Translate system state into a specific next action. |
+| **Agencies and implementation partners** | Improve the client system's behavior. | Give teams language for what feels off. | Locate whether the issue belongs in prompts, UX, retrieval, orchestration, validation, handoff, policy, or product expectations. |
+
+This is why AVA can be translated across many terms and stacks. The language may change, but the exchange still has to balance task, feeling, and form.
+
+---
+
+### Related Terms
+
+Layer Balance connects AVA to many existing product, UX, AI, and evaluation terms:
+
+- user burden
+- cognitive load
+- trust calibration
+- emotional overfitting
+- over-reassurance
+- task completion
+- conversational grounding
+- context drift
+- response proportion
+- scaffolding
+- handoff quality
+- closure
+- UX friction
+- dialogue-state management
+- interaction design
+- AI response quality
+- support resolution
+- advice boundary
+- evidence boundary
+- workflow orchestration
+- agent behavior
+- human-AI interaction
+- AI assistant evaluation
+- conversational AI behavior
+
+AVA's contribution is to treat these terms as connected parts of the same interaction-layer problem. A system can be evaluated by asking whether **Performance**, **Emotion**, and **Structure** remain balanced for the exchange the user has actually entered.
+
+---
+
+### Core Principle
+
+A human-grade AI interaction is the usable balance of three layers:
+
+**enough Performance to help, enough Emotion to fit the human moment, and enough Structure to keep the exchange coherent until it can close.**
+
+---
+
+
 # Copy/paste version of the grammar
 
 Here's the simplest runnable version of the grammar from the One-Page Hat on page 9 of **FrostysHat**.
