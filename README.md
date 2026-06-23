@@ -142,6 +142,119 @@ Containment may block/replace immediately; others revise the draft to stay on br
 
 ---
 
+# Planner Loop Adaptability
+
+**AVA** is written as a conversational runtime grammar, but the underlying loop can be adapted across many system surfaces.
+
+The canonical **AVA** loop is:
+
+**Sense → Decide → Retrieve → Generate → Validate → Close**
+
+These names aren't decorative, they mark a behavioral sequence that keeps an AI exchange from drifting, overproducing, skipping grounding, or continuing after the work is done.
+
+A system first has to understand what kind of task it's in. It then has to choose the right kind of help, retrieve or ground what is needed, produce a proportionate response, check that response against the task, and close cleanly once the purpose has been met.
+
+Different teams will rename that loop in different ways. The labels can change with the product, stack, user role, domain, or implementation layer. The structure should remain visible.
+
+---
+
+## Domain Translations
+
+A product team might call it a **task loop**:
+
+**Inspect → Determine → Research → Produce → Confirm → End**
+
+An agent team might call it an **agent execution loop**:
+
+**Perceive → Plan → Retrieve → Act → Verify → Stop**
+
+A support team might call it a **resolution loop**:
+
+**Understand → Route → Resolve → Check → Hand Off → Close**
+
+A learning system might call it a **teaching loop**:
+
+**Orient → Scope → Ground → Explain → Check Understanding → Conclude**
+
+A research assistant might call it a **source discipline loop**:
+
+**Frame → Search → Source → Synthesize → Audit → Finish**
+
+A writing tool might call it a **revision loop**:
+
+**Read → Diagnose → Reframe → Revise → Validate → Return**
+
+A governance or policy workflow might call it a **risk handling loop**:
+
+**Identify → Classify → Ground → Recommend → Review → Record**
+
+A personal assistant or life-organization tool might call it a **clarity loop**:
+
+**Name the Pressure → Sort the Context → Find Constraints → Choose a Next Step → Check Fit → Stop**
+
+These aren't separate theories. They're domain translations of the same interaction-layer claim:
+
+**Coherent AI behavior requires a runtime structure for interpreting the request, choosing the right level of help, grounding the work, producing the response, checking the result, and recognizing the endpoint.**
+
+---
+
+## Where the Loop Can Live
+
+The planner loop can live in different places:
+
+- a prompt-layer instruction
+- a system message
+- an agent planner
+- an orchestration policy
+- a retrieval rule
+- an evaluation rubric
+- a support workflow
+- a classroom method
+- a documentation standard
+- a product design pattern
+
+The deeper the integration, the less the user has to enforce the behavior manually.
+
+The useful question is not whether every implementation uses **AVA**’s exact words. The useful question is whether the behavior is present and testable.
+
+---
+
+## Failure Modes
+
+If a system **plans without grounding**, it will drift.
+
+If it **retrieves without deciding task shape**, it will overstuff the exchange.
+
+If it **generates without validation**, it will sound confident while missing the work.
+
+If it **validates without closure**, it will keep cycling.
+
+If it **closes without checking fit**, it may end neatly while leaving the user with the same burden they brought in.
+
+These failures are interaction-layer failures, and they often appear as confusion, repetition, overproduction, weak grounding, poor handoff, emotional overmirroring, or a reply that feels technically complete but practically unfinished.
+
+---
+
+## Why AVA Names the Loop
+
+**AVA** names this as a planner loop because the exchange itself needs conduct.
+
+The model doesn't just answer, it participates in a sequence of interpretation, action, verification, and completion.
+
+When that sequence is absent, users experience the failure as friction. They may not describe the problem as orchestration, grounding, validation, or closure. They simply feel the exchange becoming harder to use.
+
+The planner loop makes that behavior inspectable.
+
+It can be simplified for public use, expanded for system design, formalized for evaluations, or translated into domain-specific workflows. A customer support bot, a research assistant, a tutoring system, a policy tool, a writing assistant, and a personal planning agent should not all speak the same way. They may still need the same underlying discipline.
+
+Rename the loop if the domain requires it.
+Test the skeleton.
+The grammar either improves observable behavior or it doesn't.
+That's where the hypotheses begin.
+
+---
+
+
 # Hypotheses for Testing
 
 The **AVA** framework is a behavioral intervention which makes specific claims about how a structured conversational runtime changes the quality, efficiency, and reliability of language model interactions.
