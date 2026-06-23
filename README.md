@@ -99,6 +99,48 @@ A reader can skim the README, inspect the essay, open AVA, run HGU, review the C
 
 ---
 
+## Origin
+
+**AVA** began as a project to describe how human communication maintains coherence and was later formalized into a runtime structure that can be applied to machine systems.
+
+The project is philosophy-first, structure-based, and developed outside the traditional tech industry.
+
+**FrostysHat** emerged as a runnable cultural stress test for the same grammar.
+
+**Human-Grade University** emerged as a structured learning environment built from the broader framework, source material, and interaction-layer conduct discipline.
+
+The work is public because coherent conversational behavior should be testable, adaptable, and usable across systems.
+
+---
+
+## Canonical sources and supporting material
+
+- Full public packet: https://hug-u.org
+- HGU public page: https://avacovenant.org/hgu
+- Project directory: https://avacovenant.org
+- AVA framework page: https://avacovenant.org/ava
+- FrostysHat canonical page: https://avacovenant.org/hat
+- Table of Contents for the full FrostysHat artifact: https://avacovenant.org/toc.pdf
+- Human-Grade Systems Review / implementation help: https://avacovenant.org/human-grade-review
+
+---
+
+## Support
+
+If this work is useful to you, the best ways to give back are simple:
+
+- test it against your own systems
+- share the project
+- build on it
+- cite or link the public packet when useful
+- adapt the framework where it helps
+
+Optional support:
+
+https://avacovenant.org/donate
+
+---
+
 ## How to use AVA
 
 AVA can be approached at different levels:
@@ -190,6 +232,270 @@ It helps HGU behave less like a generic course generator and more like a coheren
 
 ---
 
+## Applied Domains, Products, and Review Surfaces
+
+AVA is a general interaction-layer framework, but the problems it names show up most clearly inside real AI products.
+
+Human-Grade Review applies AVA to the part of AI systems users actually experience: the exchange itself. That may include an assistant reply, workflow, support path, onboarding flow, transcript, prompt chain, product page, evaluation sample, or recurring behavior pattern.
+
+The review question is practical:
+
+**Where is the system creating avoidable friction, weak grounding, poor closure, unnecessary user burden, or loss of trust?**
+
+Many AI products technically work while still feeling off. The model may be capable, the prompt reasonable, the retrieval decent, the policy safe, and the UX acceptable, while the interaction still leaves the user confused, overloaded, under-informed, overconfident, or unsure what to do next.
+
+AVA gives teams a way to inspect that layer directly.
+
+---
+
+## Common Product Domains
+
+AVA-style behavioral review can apply to many AI product domains, including:
+
+### Financial Guidance Assistants
+
+Financial guidance assistants lose trust when they sound reasonable before the situation is ready for a recommendation.
+
+Relevant failure patterns include:
+
+- premature recommendation
+- missing constraints
+- confidence before sufficient context
+- unclear boundary between education, decision support, and advice
+- generic guidance that feels personalized
+- user action before the system has earned decisiveness
+
+AVA helps inspect where the assistant should pause, ask, retrieve, narrow, or hand off before sounding conclusive.
+
+### Healthcare Guidance Assistants
+
+Healthcare guidance has a narrow margin for misplaced confidence.
+
+Relevant failure patterns include:
+
+- over-reassurance
+- generic information becoming personal interpretation
+- unclear clinical boundary
+- anxiety smoothing before context is established
+- advice-like next steps without enough patient-specific context
+- answers that feel settled too early
+
+AVA helps inspect where the assistant should classify, bound, retrieve, clarify, or escalate before offering reassurance or direction.
+
+### HR, People Ops, and Employee Policy Assistants
+
+HR assistants are tested when policy becomes personal.
+
+Relevant failure patterns include:
+
+- generic handbook repetition
+- weak privacy handling
+- unclear role boundaries
+- overbroad routing to a manager or HR
+- disclosure risk pushed onto the employee
+- sensitive requests treated like routine policy lookup
+
+AVA helps inspect whether the assistant recognizes sensitivity, separates roles, limits disclosure, retrieves the right process, and leaves the employee with a safer next step.
+
+### Insurance Guidance Assistants
+
+Insurance guidance is tested when a rule changes someone's outcome.
+
+Relevant failure patterns include:
+
+- policy explanation without decision translation
+- vague claim-status language
+- missing evidence or document guidance
+- user sent back to policy documents without direction
+- category language replacing next-action support
+- appeal or escalation paths introduced too generically
+
+AVA helps inspect whether the assistant preserves the specific claim, denial, bill, coverage question, or reimbursement issue in front of the user.
+
+### Intake, Onboarding, and Application Flows
+
+Intake and onboarding are where trust becomes practical.
+
+Relevant failure patterns include:
+
+- vague status messages
+- hidden validation reasons
+- repeated requirements
+- unclear next actions
+- known system state not translated into user action
+- abandonment caused by preventable uncertainty
+
+AVA helps inspect where a flow should read the user's position, translate the blocker, and close with a specific finishable step.
+
+### Internal Copilots and Workflow Agents
+
+Internal copilots are supposed to reduce coordination burden.
+
+Relevant failure patterns include:
+
+- summary without prioritization
+- retrieval without work support
+- equal-weight fact dumps
+- missing urgency or relevance ranking
+- handoffs that still require manual sorting
+- outputs that look useful but leave the employee with the same decision burden
+
+AVA helps inspect whether the copilot recognizes the work moment, ranks context by usefulness, and closes with an answer that helps the employee act.
+
+### Legal Guidance and Document Assistants
+
+Legal guidance assistants lose trust when partial context starts to sound like settled advice.
+
+Relevant failure patterns include:
+
+- clause summary becoming action guidance
+- missing related provisions
+- weak scope control
+- practical instruction before document context supports it
+- disclaimers arriving after the answer has already hardened
+- confidence beyond available facts
+
+AVA helps inspect whether the assistant recognizes action intent, retrieves the relevant document context, preserves scope, and routes toward review before the answer becomes actionable.
+
+### Research, Summary, and Recommendation Assistants
+
+Research assistants are trusted because they promise to reduce uncertainty without erasing it.
+
+Relevant failure patterns include:
+
+- evidence flattened into polished confidence
+- source claims blurred with inference
+- recommendations arriving before support is strong enough
+- uncertainty hidden in the background
+- weak distinction between direct findings, commentary, and judgment
+- user left less able to evaluate the answer
+
+AVA helps inspect whether the assistant preserves source type, evidence strength, population limits, uncertainty, and judgment boundaries.
+
+### Sales and Revenue Assistants
+
+Sales assistants are tested by timing.
+
+Relevant failure patterns include:
+
+- buyer timing treated as an objection
+- pressure disguised as momentum
+- false urgency
+- account context ignored
+- relationship state flattened into generic follow-up
+- activity created without commercial judgment
+
+AVA helps inspect whether the assistant reads buyer state, preserves timing, chooses the right next action, and stops short of persuasion when the moment calls for patience.
+
+### Support Assistants
+
+Support is where AI behavior becomes operational cost.
+
+Relevant failure patterns include:
+
+- apology loops
+- generic troubleshooting
+- repeated context
+- weak diagnosis
+- late or vague handoff
+- polished replies that do not move the user closer to resolution
+
+AVA helps inspect where the assistant should narrow, check, escalate, or stop before a helpful-sounding response becomes another loop the user has to manage.
+
+### Tutors and Learning Tools
+
+Tutoring products are judged by what the learner gets to do next.
+
+Relevant failure patterns include:
+
+- answer-dumping
+- solving too far ahead
+- explanation replacing learner action
+- vocabulary introduced before the learner can use it
+- premature verification
+- "does that make sense?" endings after the system has already done the work
+
+AVA helps inspect whether the tutor reads learner state, chooses the smallest useful prompt, preserves student agency, and stops before the answer takes away the work that teaches.
+
+### Voice, Contact Center, and Conversational Agents
+
+Voice agents do not get much room to be almost right.
+
+Relevant failure patterns include:
+
+- missed corrections
+- stale dialogue state
+- repeated questions
+- wrong branch continuation
+- weak repair handling
+- handoff without enough context
+- callers forced to manage the conversation for the system
+
+AVA helps inspect whether the agent detects repair, preserves live state, validates the next spoken turn, and escalates with enough context before the caller loses confidence.
+
+---
+
+## Agencies and Implementation Partners
+
+AVA can also support AI agencies, product studios, consultants, and implementation partners building systems for clients.
+
+A client system may technically work while the client still says:
+
+- "It feels vague."
+- "Users don't trust it."
+- "It answers but doesn't resolve."
+- "It keeps going too long."
+- "It is too cautious here and too confident there."
+- "We don't know whether this is a prompt problem, UX problem, retrieval problem, policy problem, or product problem."
+
+That feedback often points to the interaction layer.
+
+Human-Grade Review can act as a specialist outside read before launch, after testing, during client revision cycles, or when an agency needs clearer language for what feels off.
+
+The practical delivery question is:
+
+**Which part of the system should change next — prompts, retrieval, orchestration, UX, handoffs, validation, policy, evaluation, or product expectations?**
+
+AVA does not replace engineering, UX, safety, legal, compliance, model evaluation, or implementation work. It gives teams a behavioral review layer for the exchange users actually experience.
+
+---
+
+## Search Terms for Applied Review
+
+This repository may be relevant to searches for:
+
+- AI product review
+- AI behavior review
+- LLM behavior review
+- AI assistant evaluation
+- AI UX audit
+- conversational AI audit
+- AI support assistant review
+- AI onboarding flow review
+- AI workflow agent review
+- AI copilot evaluation
+- AI tutor evaluation
+- AI healthcare assistant review
+- AI financial assistant review
+- AI legal assistant review
+- AI sales assistant review
+- AI contact center evaluation
+- voice agent review
+- RAG assistant review
+- prompt chain review
+- AI handoff review
+- user burden in AI systems
+- AI assistant trust problems
+- AI product feels off
+- AI interaction-layer review
+- Human-Grade Review
+
+These are applied surfaces of the same core framework:
+
+**coherent AI behavior at the interaction layer.**
+
+---
+
 ## Planner Loop Adaptability
 
 AVA is written as a conversational runtime grammar, but the underlying loop can be adapted across many system surfaces.
@@ -239,48 +545,6 @@ A personal assistant or life-organization tool might call it a **clarity loop**:
 These are domain translations of the same interaction-layer claim:
 
 **Coherent AI behavior requires a runtime structure for interpreting the request, choosing the right level of help, grounding the work, producing the response, checking the result, and recognizing the endpoint.**
-
----
-
-## Origin
-
-**AVA** began as a project to describe how human communication maintains coherence and was later formalized into a runtime structure that can be applied to machine systems.
-
-The project is philosophy-first, structure-based, and developed outside the traditional tech industry.
-
-**FrostysHat** emerged as a runnable cultural stress test for the same grammar.
-
-**Human-Grade University** emerged as a structured learning environment built from the broader framework, source material, and interaction-layer conduct discipline.
-
-The work is public because coherent conversational behavior should be testable, adaptable, and usable across systems.
-
----
-
-## Canonical sources and supporting material
-
-- Full public packet: https://hug-u.org
-- HGU public page: https://avacovenant.org/hgu
-- Project directory: https://avacovenant.org
-- AVA framework page: https://avacovenant.org/ava
-- FrostysHat canonical page: https://avacovenant.org/hat
-- Table of Contents for the full FrostysHat artifact: https://avacovenant.org/toc.pdf
-- Human-Grade Systems Review / implementation help: https://avacovenant.org/human-grade-review
-
----
-
-## Support
-
-If this work is useful to you, the best ways to give back are simple:
-
-- test it against your own systems
-- share the project
-- build on it
-- cite or link the public packet when useful
-- adapt the framework where it helps
-
-Optional support:
-
-https://avacovenant.org/donate
 
 ---
 
