@@ -10,7 +10,7 @@ The full public packet is available here:
 
 **https://hug-u.org**
 
-The Heart of AI, LLC maintains the AVA framework and stewarding materials around the broader project. It also maintains the AVA Covenant Charter, a legal governance document for a proposed public trust-mark system for human-grade AI behavior, with standards, adoption terms, enforcement, council governance, audits, certification, scoreboard status, contribution tracking, with all prestige-seeking surplus flows automatically routed toward humanitarian care.
+The Heart of AI, LLC maintains the AVA framework and stewarding materials around the broader project. It also maintains the AVA Covenant Charter, a legal governance document for a proposed public trust-mark system for human-grade AI behavior, with standards, adoption terms, enforcement, council governance, audits, certification, scoreboard status, contribution tracking, and all prestige-seeking surplus flows automatically routed toward humanitarian care.
 
 The work is philosophy-first, clearly developed outside the usual institutions, and designed as a map rather than a funnel: a free public inspection surface for readers, researchers, educators, engineers, builders, and anyone who wants to test, modify, or adapt the framework directly.
 
