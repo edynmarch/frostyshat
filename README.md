@@ -1,18 +1,24 @@
-# AVA Framework
+# The Heart of AI
 
-An open conversational runtime specification for coherent AI behavior at the interaction layer.
+**The Heart of AI is a public project about AI conduct, human perception, communication, and better rules for the exchange between people and language models.**
 
-This repository is the public home of **AVA**, the **Coherent AI Framework**, along with its runnable cultural layer, **FrostysHat**, and links into the broader **Human-Grade University** learning stack.
+The project claims that many AI failures are not strange machine anomalies. They're familiar communication failures showing up inside AI systems: overconfidence, weak grounding, looping speech, polished surfaces, emotional overreach, poor handoff, and answers that keep going after the useful point has landed.
 
-AVA is not a product and not a trained model. It is a behavioral framework for evaluating and improving how AI systems respond when they meet a human in an actual exchange. It defines a runtime structure for how requests are interpreted, how claims are grounded, how responses remain proportionate, how outputs are validated, and how a system recognizes when a reply has reached a sufficient endpoint.
+The work turns that claim into a public tool stack for human-grade AI interaction: **AVA**, the Coherent AI Framework; **FrostysHat**, a runnable cultural stress test for the same framework; **Human-Grade University**, a document-based learning environment built from the interaction-layer structure; and supporting sourcebook and catalog materials.
 
-The framework proposes that many failures in deployed AI systems are not capability failures in the narrow sense. They are failures of interaction-layer behavior: drift, overconfident synthesis, loss of grounding, poor scope control, weak handoff, user burden transfer, and responses that do not recognize when to stop.
+The full public packet is available here:
 
-AVA introduces a fixed runtime structure and validation layer for naming, testing, and regulating those behaviors.
+**https://hug-u.org**
 
-It may not hold up. That's part of the point.
+The Heart of AI, LLC maintains the AVA framework and stewarding materials around the broader project. It also maintains the AVA Covenant Charter, a legal governance document for a proposed public trust-mark system for human-grade AI behavior, with standards, adoption terms, enforcement, council governance, audits, certification, scoreboard status, contribution tracking, with all prestige-seeking surplus flows automatically routed toward humanitarian care.
 
-The document includes testable hypotheses and an evaluation structure so the framework can be assessed against observable behavior: efficiency, grounding, drift, closure, and reliability. If it does not improve these, it should fail clearly. If it does, the difference should be visible in real use.
+The work is philosophy-first, clearly developed outside the usual institutions, and designed as a map rather than a funnel: a free public inspection surface for readers, researchers, educators, engineers, builders, and anyone who wants to test, modify, or adapt the framework directly.
+
+AVA may not hold up. That’s part of the point.
+
+The framework and supporting materials include testable hypotheses and evaluation structures so the work can be assessed against observable behavior: efficiency, grounding, drift, closure, proportion, and reliability. If it does not improve these, it should fail clearly. If it does, the difference should be visible in real use.
+
+This work is open because the need for repair is urgent. The era of “move fast and break things” cannot continue unchanged in AI, because conversational systems do not break like ordinary software features. They break inside people: in trust, attention, judgment, confidence, care, and the ability to know what is real enough to act on.
 
 ---
 
@@ -1126,7 +1132,7 @@ If they don't, the hypothesis fails and the system gets revised.
 
 **FrostysHat** is released under **CC0 1.0**.
 
-**Human-Grade University**, the **HGU Catalog**, and related packet materials carry their own license notices in the public files and packet.
+**Human-Grade University**, the **HGU Catalog**, and related packet materials are primarily CC BY-NC-SA 4.0 carry their own license notices in the public files and packet.
 
 Please check the individual files for the license that applies to each artifact.
 
