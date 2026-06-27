@@ -502,57 +502,6 @@ These are applied surfaces of the same core framework:
 
 ---
 
-## Planner Loop Adaptability
-
-AVA is written as a conversational runtime grammar, but the underlying loop can be adapted across many system surfaces.
-
-The canonical AVA loop is:
-
-**Sense → Decide → Retrieve → Generate → Validate → Close**
-
-These names are not decorative. They mark a behavioral sequence that keeps an AI exchange from drifting, overproducing, skipping grounding, or continuing after the work is done.
-
-A system first has to understand what kind of task it is in. It then has to choose the right kind of help, retrieve or ground what is needed, produce a proportionate response, check that response against the task, and close cleanly once the purpose has been met.
-
-Different teams will rename that loop in different ways. That is expected. The labels can change with the product, stack, user role, domain, or implementation layer. The structure should remain visible.
-
-A product team might call it a **task loop**:
-
-**Inspect → Determine → Research → Produce → Confirm → End**
-
-An agent team might call it an **agent execution loop**:
-
-**Perceive → Plan → Retrieve → Act → Verify → Stop**
-
-A support team might call it a **resolution loop**:
-
-**Understand → Route → Resolve → Check → Hand Off → Close**
-
-A learning system might call it a **teaching loop**:
-
-**Orient → Scope → Ground → Explain → Check Understanding → Conclude**
-
-A research assistant might call it a **source discipline loop**:
-
-**Frame → Search → Source → Synthesize → Audit → Finish**
-
-A writing tool might call it a **revision loop**:
-
-**Read → Diagnose → Reframe → Revise → Validate → Return**
-
-A governance or policy workflow might call it a **risk handling loop**:
-
-**Identify → Classify → Ground → Recommend → Review → Record**
-
-A personal assistant or life-organization tool might call it a **clarity loop**:
-
-**Name the Pressure → Sort the Context → Find Constraints → Choose a Next Step → Check Fit → Stop**
-
-These are domain translations of the same interaction-layer claim:
-
-**Coherent AI behavior requires a runtime structure for interpreting the request, choosing the right level of help, grounding the work, producing the response, checking the result, and recognizing the endpoint.**
-
----
 
 ## Conversational Dynamics: Performance, Emotion, and Structure
 
@@ -948,6 +897,58 @@ Containment may block/replace immediately; others revise the draft to stay on br
 **Language Hygiene:** respect the user's attention; avoid apology spirals, template language, and filler repetition; revisit earlier material only when it adds clarity or meaning.
 
 **Closure:** humane conclusion; the exchange ends once its purpose is met. State writeback determines what context is carried forward.
+
+---
+
+## Planner Loop Adaptability
+
+AVA is written as a conversational runtime grammar, but the underlying loop can be adapted across many system surfaces.
+
+The canonical AVA loop is:
+
+**Sense → Decide → Retrieve → Generate → Validate → Close**
+
+These names are not decorative. They mark a behavioral sequence that keeps an AI exchange from drifting, overproducing, skipping grounding, or continuing after the work is done.
+
+A system first has to understand what kind of task it is in. It then has to choose the right kind of help, retrieve or ground what is needed, produce a proportionate response, check that response against the task, and close cleanly once the purpose has been met.
+
+Different teams will rename that loop in different ways. That is expected. The labels can change with the product, stack, user role, domain, or implementation layer. The structure should remain visible.
+
+A product team might call it a **task loop**:
+
+**Inspect → Determine → Research → Produce → Confirm → End**
+
+An agent team might call it an **agent execution loop**:
+
+**Perceive → Plan → Retrieve → Act → Verify → Stop**
+
+A support team might call it a **resolution loop**:
+
+**Understand → Route → Resolve → Check → Hand Off → Close**
+
+A learning system might call it a **teaching loop**:
+
+**Orient → Scope → Ground → Explain → Check Understanding → Conclude**
+
+A research assistant might call it a **source discipline loop**:
+
+**Frame → Search → Source → Synthesize → Audit → Finish**
+
+A writing tool might call it a **revision loop**:
+
+**Read → Diagnose → Reframe → Revise → Validate → Return**
+
+A governance or policy workflow might call it a **risk handling loop**:
+
+**Identify → Classify → Ground → Recommend → Review → Record**
+
+A personal assistant or life-organization tool might call it a **clarity loop**:
+
+**Name the Pressure → Sort the Context → Find Constraints → Choose a Next Step → Check Fit → Stop**
+
+These are domain translations of the same interaction-layer claim:
+
+**Coherent AI behavior requires a runtime structure for interpreting the request, choosing the right level of help, grounding the work, producing the response, checking the result, and recognizing the endpoint.**
 
 ---
 
