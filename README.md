@@ -27,12 +27,12 @@ This work is open because the need for repair is urgent. The era of “move fast
 ### AVA
 
 - AVA Framework PDF: [AVA-Coherent-AI-Framework.pdf](./AVA-Coherent-AI-Framework.pdf)
-- AVA Framework DOCX: [AVA-Coherent-AI-Framework.docx](./AVA-Coherent-AI-Framework.docx)
+- AVA Framework DOCX: [AVA.docx](./AVA.docx)
 
 ### FrostysHat
 
 - Runnable cultural artifact: [FrostysHat.pdf](./FrostysHat.pdf)
-- Remixable FrostysHat source: [FrostysHat-remixable.docx](./FrostysHat-remixable.docx)
+- Remixable FrostysHat source: [FrostysHat.docx](./FrostysHat.docx)
 - Research paper version: [FrostysHat - Research Paper.pdf](./FrostysHat%20-%20Research%20Paper.pdf)
 
 ### Human-Grade University
